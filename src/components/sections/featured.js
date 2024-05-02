@@ -348,7 +348,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Projects
       </h2>
 
       <StyledProjectsGrid>
@@ -385,7 +385,12 @@ const Featured = () => {
 
                     <div className="project-links">
                       {cta && (
-                        <a target="_blank" href={cta} aria-label="Course Link" className="cta" rel="noreferrer">
+                        <a
+                          target="_blank"
+                          href={cta}
+                          aria-label="Course Link"
+                          className="cta"
+                          rel="noreferrer">
                           Learn More
                         </a>
                       )}
@@ -399,7 +404,8 @@ const Featured = () => {
                           target="_blank"
                           href={external}
                           aria-label="External Link"
-                          className="external" rel="noreferrer">
+                          className="external"
+                          rel="noreferrer">
                           <Icon name="External" />
                         </a>
                       )}
@@ -408,7 +414,10 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a target="_blank" href={external ? external : github ? github : '#'} rel="noreferrer">
+                  <a
+                    target="_blank"
+                    href={external ? external : github ? github : '#'}
+                    rel="noreferrer">
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
