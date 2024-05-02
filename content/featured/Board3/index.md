@@ -1,9 +1,9 @@
 ---
-date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+date: '3'
+title: 'Golden Version of Arduino'
+cover: './board_3.png'
+external: '/Board 3 Report.pdf'
+cta: '/Board 3 Report.pdf'
 tech:
   - VS Code
   - Sublime Text

@@ -2,10 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Daniel Mendez',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Daniel Mendez is an embedded systems engineer with expertise in crafting innovative solutions for hardware integration and firmware development. He excels in creating robust embedded systems that seamlessly interact with the physical world, ensuring exceptional performance and reliability',
+    siteUrl: 'https://mendezbytes.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
