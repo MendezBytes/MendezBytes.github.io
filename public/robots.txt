@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://mendezbytes.github.io/sitemap.xml
-Host: https://mendezbytes.github.io
