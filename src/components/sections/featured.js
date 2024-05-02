@@ -365,7 +365,9 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      <a href={external}>{title}</a>
+                      <a target="_blank" href={external} rel="noreferrer">
+                        {title}
+                      </a>
                     </h3>
 
                     <div
@@ -383,7 +385,7 @@ const Featured = () => {
 
                     <div className="project-links">
                       {cta && (
-                        <a href={cta} aria-label="Course Link" className="cta">
+                        <a target="_blank" href={cta} aria-label="Course Link" className="cta" rel="noreferrer">
                           Learn More
                         </a>
                       )}
@@ -393,7 +395,11 @@ const Featured = () => {
                         </a>
                       )}
                       {external && !cta && (
-                        <a href={external} aria-label="External Link" className="external">
+                        <a
+                          target="_blank"
+                          href={external}
+                          aria-label="External Link"
+                          className="external" rel="noreferrer">
                           <Icon name="External" />
                         </a>
                       )}
@@ -402,7 +408,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a target="_blank" href={external ? external : github ? github : '#'} rel="noreferrer">
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
